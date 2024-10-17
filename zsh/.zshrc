@@ -59,3 +59,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# ----psql---
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
