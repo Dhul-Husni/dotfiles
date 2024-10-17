@@ -18,7 +18,7 @@ config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
 config.window_decorations = "RESIZE"
-config.font = wezterm.font("MesloLGS NF", { weight = "Bold" })
+config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium", stretch = "Normal", style = "Normal" })
 config.font_size = 13
 config.initial_rows = 40
 config.initial_cols = 100
