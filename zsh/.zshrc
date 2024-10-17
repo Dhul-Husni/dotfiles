@@ -41,6 +41,8 @@ source <(fzf --zsh)
 
 #-----rbenv-------
 FPATH=~/.rbenv/completions:"$FPATH"
+# ----docker------
+FPATH="$HOME/.docker/completions:$FPATH"
 
-autoload -U compinit
+autoload -Uz compinit
 compinit
