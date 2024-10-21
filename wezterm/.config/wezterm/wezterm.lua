@@ -22,7 +22,7 @@ config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium", stret
 config.font_size = 13
 config.initial_rows = 40
 config.initial_cols = 100
-config.color_scheme = "OneDark (base16)"
+config.color_scheme = "Gruvbox Dark (Gogh)"
 
 config.colors = {
 	tab_bar = {

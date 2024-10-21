@@ -4,15 +4,14 @@ return {
   { import = "lazyvim.plugins.extras.lang.rust" },
   -- Theme
   {
-    "navarasu/onedark.nvim",
-    opts = {
-      style = "dark",
-    },
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark",
+      colorscheme = "gruvbox",
+      background = "dark",
     },
   },
 }
