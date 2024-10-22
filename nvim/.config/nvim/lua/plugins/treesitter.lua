@@ -105,7 +105,7 @@ return {
         border = "rounded",
         peek_definition_code = {
           ["gp"] = { query = "@function.outer", desc = "peek function definition" },
-          ["gcp"] = { query = "@class.outer", desc = "peek class definition" },
+          ["gkp"] = { query = "@class.outer", desc = "peek class definition" },
         },
       },
     },
