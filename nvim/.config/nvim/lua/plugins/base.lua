@@ -2,6 +2,9 @@ return {
   -- lsp
   { import = "lazyvim.plugins.extras.lang.ruby" },
   { import = "lazyvim.plugins.extras.lang.rust" },
+  -- extras
+  { import = "lazyvim.plugins.extras.coding.mini-surround" },
+  { import = "lazyvim.plugins.extras.coding.luasnip" },
   -- Theme
   {
     "ellisonleao/gruvbox.nvim",
