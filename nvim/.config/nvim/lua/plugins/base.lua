@@ -5,6 +5,8 @@ return {
   -- extras
   { import = "lazyvim.plugins.extras.coding.mini-surround" },
   { import = "lazyvim.plugins.extras.coding.luasnip" },
+  { import = "lazyvim.plugins.extras.coding.copilot" },
+  { import = "lazyvim.plugins.extras.coding.copilot-chat" },
   -- Theme
   {
     "ellisonleao/gruvbox.nvim",

@@ -6,3 +6,6 @@ vim.g.lazyvim_ruby_formatter = "rubocop"
 vim.g.have_nerd_font = true
 
 vim.treesitter.language.register("bash", "cheat")
+
+-- copilot
+vim.g.copilot_node_command = "~/.nvm/versions/node/v18.20.4/bin/node"
