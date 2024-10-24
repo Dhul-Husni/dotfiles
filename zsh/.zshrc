@@ -105,7 +105,7 @@ zstyle ':omz:update' frequency 14
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z rails ruby rust python zsh-autosuggestions zsh-syntax-highlighting zsh-completions zsh-autopair)
+plugins=(git z rails ruby rust python zsh-autosuggestions zsh-syntax-highlighting zsh-completions zsh-autopair fzf-tab)
 
 source $ZSH/oh-my-zsh.sh
 
