@@ -160,19 +160,5 @@ source "$HOME/.cargo/env"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# ----rbenv-----
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-local READLINE_PATH=$(brew --prefix readline)
-local OPENSSL_PATH=$(brew --prefix openssl)
-
-export LDFLAGS="-L$READLINE_PATH/lib -L$OPENSSL_PATH/lib"
-export CPPFLAGS="-I$READLINE_PATH/include -I$OPENSSL_PATH/include"
-export PKG_CONFIG_PATH="$READLINE_PATH/lib/pkgconfig:$OPENSSL_PATH/lib/pkgconfig"
-
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$OPENSSL_PATH"
-
-export PATH=$OPENSSL_PATH/bin:$PATH
-
-export SDKROOT="$(xcrun --show-sdk-path)"
+#---chruby
+source /usr/local/share/chruby/chruby.sh
