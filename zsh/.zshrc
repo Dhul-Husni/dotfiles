@@ -139,8 +139,6 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
-#-----rbenv-------
-FPATH=~/.rbenv/completions:"$FPATH"
 # ----docker------
 FPATH="$HOME/.docker/completions:$FPATH"
 
