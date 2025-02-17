@@ -17,7 +17,29 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
-    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    {
+      "LazyVim/LazyVim",
+      import = "lazyvim.plugins",
+
+      opts = {
+        colorscheme = "gruvbox",
+        background = "dark",
+      },
+    },
+    -- lsp
+    { import = "lazyvim.plugins.extras.lang.ruby" },
+    { import = "lazyvim.plugins.extras.lang.rust" },
+    -- extras
+    { import = "lazyvim.plugins.extras.coding.mini-surround" },
+    { import = "lazyvim.plugins.extras.coding.luasnip" },
+    { import = "lazyvim.plugins.extras.ai.copilot" },
+    { import = "lazyvim.plugins.extras.ai.copilot-chat" },
+    { import = "lazyvim.plugins.extras.lang.elixir" },
+    -- Theme
+    {
+      "ellisonleao/gruvbox.nvim",
+      priority = 1000,
+    },
     -- import/override with your plugins
     { import = "plugins" },
   },
