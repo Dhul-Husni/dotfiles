@@ -164,3 +164,6 @@ source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/dhul/.cache/lm-studio/bin"
+
+# add bitwarden
+export BW_SESSION=$(security find-generic-password -a $USER -s "BW_SESSION" -w)
